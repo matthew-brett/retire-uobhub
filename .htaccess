@@ -1,1 +1,3 @@
+RewriteCond %{REQUEST_URI} !=/index.html
+RewriteCond %{REQUEST_URI} !=/simple.min.css
 RewriteRule ^ /index.html [R=301]
